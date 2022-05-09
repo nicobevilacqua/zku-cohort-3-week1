@@ -21,17 +21,7 @@ function bumpContract({ name, file, plonk }) {
 }
 
 bumpContract({
-  name: "HelloWorldVerifier",
-  file: "HelloWorldVerifier.sol",
+  name: "RangeProofImplementationVerifier",
+  file: "RangeProofImplementationVerifier.sol",
 });
 
-bumpContract({
-  name: "Multiplier3Verifier",
-  file: "Multiplier3Verifier.sol",
-});
-
-bumpContract({
-  name: "Multiplier3VerifierPlonk",
-  file: "Multiplier3Verifier_plonk.sol",
-  plonk: true,
-});
